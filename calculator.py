@@ -35,11 +35,6 @@ def operation_question(operation):
     elif operation == 'division' or operation == 'Division' or operation == 'divide' or operation == 'Divide' or operation == '/':
         return (division_answer)
     else:
-        return('Try again')
+        return("Learn how to spell moe.")
 
-print(operation_question(operation))
-
-
-
-
-    
+print(operation_question(operation)) 
